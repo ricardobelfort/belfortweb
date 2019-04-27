@@ -1,0 +1,715 @@
+/* 
+    Created on : 07/01/2019, 13:44:53
+    Author     : Ricardo Belfort
+*/
+
+/*
+CONTENT
+*/
+.main-header{
+    width: 100%;
+    height: 100%;
+    background: url(../../themes/belfortweb/images/background-belfortweb.jpg) no-repeat center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+.main-header-content{
+    width: 1200px;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 40px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-header-logo,
+.main-header-social{
+    flex-basis: 50%;
+}
+.main-header-social ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+.main-header-social ul > .title{
+    font-size: .6em;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, .5);
+}
+.main-header-social a{
+    color: rgba(255, 255, 255, .5);
+    margin-left: 15px;
+}
+.main-header-social a:hover{
+    color: #fff;
+}
+.main-headline{
+    width: 100%;
+    padding: 200px 0;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.main-headline .title{
+    flex-basis: calc(50% - 40px);
+    margin: 20px;
+}
+.main-headline .title h1{
+    font-size: 4em;
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 25px;
+}
+.main-headline .title p{
+    font-size: 2em;
+    font-weight: 200;
+}
+.main-headline div{
+    flex-basis: calc(50% - 40px);
+    margin: 20px;
+}
+.main-headline div img{
+    width: 100%;
+}
+
+/*
+SERVIÇOS
+*/
+.service-section,
+.portfolio-section{
+    width: 100%;
+    padding: 100px 0;
+}
+.service-section .content,
+.portfolio-section .content{
+    width: 1200px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.service-section-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.service-section-title h1{
+    font-size: 3.75em;
+    font-weight: 900;
+    color: var(--colorH);
+}
+.service-section-title p{
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-bottom: 10px;
+    color: var(--colorP);
+}
+.service-section-title .divisor{
+    width: 70px;
+    height: 2px;
+    margin: 20px 0 60px 0;
+    background-color: var(--themeColorA);
+}
+.service-section-services{
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-section-services-article{
+    flex-basis: calc(33.33% - 30px);
+    margin: 15px;
+    text-align: center;
+}
+.service-section-services-article img{
+    margin-bottom: 30px;
+}
+.service-section-services-article h2{
+    font-size: 2em;
+    font-weight: 900;
+    margin-bottom: 10px;
+    color: #96a1b6;
+}
+
+/*
+PORTFÓLIO
+*/
+.portfolio-section{
+    width: 100%;
+    padding: 100px 0;
+    background-color: var(--themeBgLight);
+}
+.portfolio-section .content{
+    width: 1200px;
+    margin: 0 auto;
+}
+.portfolio-section-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.portfolio-section-title h1{
+    font-size: 3.75em;
+    font-weight: 900;
+    color: var(--colorH);
+}
+.portfolio-section-title p{
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-bottom: 10px;
+    color: var(--colorP);
+}
+.portfolio-section-title .divisor{
+    width: 70px;
+    height: 2px;
+    margin: 20px 0 60px 0;
+    background-color: var(--themeColorA);
+}
+.portfolio-section-jobs{
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio-section-jobs-article{
+    flex-basis: calc(33.33% - 10px);
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.grid {
+	list-style: none;
+	text-align: center;
+}
+.grid li {
+	display: inline-block;
+	margin: 0;
+	text-align: left;
+	position: relative;
+}
+.grid figure {
+	margin: 0;
+	position: relative;
+}
+.grid figure img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+}
+.grid figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	background: rgba(44, 63, 82, .95);
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.grid figcaption h3 {
+	margin: 0;
+    padding: 0;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.grid figcaption span{
+    font-size: .8em;
+    font-weight: 300;
+}
+.grid figcaption a {
+	text-align: center;
+    padding: 5px 10px;
+    border-radius: 2px;
+	display: inline-block;
+	background: #ed4e6e;
+	color: #fff;
+}
+.cs-style-1 figcaption {
+    height: calc(100% - 16px);
+    width: calc(100% - 16px);
+    margin: 8px;
+	opacity: 0;
+	text-align: center;
+	backface-visibility: hidden;
+	transition: transform 0.3s, opacity 0.3s;
+}
+.no-touch .cs-style-1 figure:hover figcaption,
+.cs-style-1 figure.cs-hover figcaption {
+	opacity: 1;
+	transform: translate(0, 0);
+}
+.cs-style-1 figcaption span {
+	display: block;
+}
+.cs-style-1 figcaption a {
+	margin-top: 30px;
+}
+
+/*
+CONTACT
+*/
+.contact-section{
+    width: 100%;
+    padding: 100px 0;
+    background: url(../../themes/belfortweb/images/background-contato.jpg) no-repeat bottom center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.contact-section .content{
+    width: 1200px;
+    margin: 0 auto;
+}
+.contact-section-title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contact-section-title h1{
+    font-size: 5em;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.contact-section-title p{
+    font-size: 2em;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 60px;
+}
+.contact-section-card{
+    width: 100%;
+    text-align: center;
+}
+.contact-mobile{
+    display: none;
+}
+
+/*
+MAIN FOOTER
+*/
+.main-footer{
+    width: 100%;
+    background-color: var(--themeBgDark);
+    padding: 20px 0;
+    text-align: center;
+}
+.main-footer .content p{
+    font-size: .75em;
+    font-weight: 300;
+    color: #ccc;
+}
+
+/*
+BREAKPOINTS
+*/
+/* 1024 */
+@media (max-width: 64em) {
+    .main-header{
+        width: 100%;
+        height: 1000px;
+    }
+    .main-header-content{
+        width: 90%;
+        margin: 0 5%;
+    }
+    .main-headline{
+        padding: 30px 0;
+    }
+    .main-headline .title{
+        flex-basis: 100%;
+        text-align: center;
+        order: 2;
+    }
+    .main-headline .title h1{
+        font-size: 2.4em;
+    }
+    .main-headline .title p{
+        font-size: 1.2em;
+    }
+    .main-headline div{
+        flex-basis: 100%;
+        margin: 30px 0;
+        order: 1;
+        text-align: center;
+    }
+    .main-headline div img{
+        width: 100%;
+        max-width: 300px;
+    }
+    .service-section{
+        padding: 60px 0 30px 0;
+    }
+    .service-section-title{
+        text-align: center;
+    }
+    .service-section-title h1{
+        font-size: 3em;
+    }
+    .service-section-title p{
+        font-size: 1em;
+    }
+    .service-section-services-article{
+        flex-basis: 100%;
+    }
+    .service-section-services-article img{
+        margin-bottom: 15px;
+    }
+    .service-section-services-article p{
+        margin-bottom: 30px;
+    }
+    .portfolio-section{
+        padding: 60px 0;
+    }
+    .portfolio-section-title h1{
+        font-size: 3em;
+    }
+    .portfolio-section-title p{
+        font-size: 1em;
+    }
+    .portfolio-section-jobs-article{
+        flex-basis: 100%;
+        margin: 0;
+    }
+
+   .grid {
+		padding: 0 5px;
+	}
+	.grid li {
+		width: 100%;
+		min-width: 300px;
+    }
+
+    .contact-section .content{
+        width: 90%;
+        margin: 0 5%;
+    }
+    .contact-section-title h1{
+        font-size: 2em;
+    }
+    .contact-section-title p{
+        font-size: 1em;
+    }
+    .contact-section-card{
+        display: none;
+    }
+    .contact-mobile{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contact-mobile .phone,
+    .contact-mobile .email{
+        flex-basis: 100%;
+        padding: 30px;
+        border-radius: 5px;
+        background-color: var(--themeBgLight);
+        color: var(--themeColorA);
+        text-align: center;
+    }
+    .contact-mobile .phone > span > i,
+    .contact-mobile .email > span > i{
+        margin-bottom: 20px;
+    }
+    .contact-mobile .phone > p,
+    .contact-mobile .email > p{
+        margin-bottom: 20px;
+    }
+    .contact-mobile .phone:first-child{
+        margin-bottom: 20px;
+    }
+    .contact-mobile .phone p{
+        font-size: 2em;
+        font-weight: 800;
+    }
+    .contact-mobile .email p{
+        font-size: 1.2em;
+        font-weight: 800;
+    }
+
+/* 768px */
+@media (max-width:48em) {
+    .main-header-content{
+        width: 90%;
+        margin: 0 5%;
+    }
+    .main-header-logo img{
+        width: 100%;
+        max-width: 80px;
+    }
+    .main-header-social ul > .title{
+        font-size: 1em;
+        font-weight: 300;
+    }
+    .main-header-social a{
+        font-size: 2em;
+        padding: 0 5px;
+    }
+    .main-headline{
+        padding: 10px 0;
+    }
+    .main-headline .title{
+        flex-basis: 100%;
+        text-align: center;
+        order: 2;
+    }
+    .main-headline .title h1{
+        font-size: 3.8em;
+        padding-top: 30px;
+    }
+    .main-headline .title p{
+        font-size: 1.8em;
+        padding-bottom: 60px;
+    }
+    .main-headline div{
+        flex-basis: 100%;
+        margin: 20px 0;
+        order: 1;
+        text-align: center;
+    }
+    .main-headline div img{
+        width: 100%;
+        max-width: 520px;
+        margin: 60px 0 0 0;
+    }
+    .service-section{
+        padding: 60px 0 30px 0;
+    }
+    .service-section-title{
+        text-align: center;
+    }
+    .service-section-title h1{
+        font-size: 3em;
+    }
+    .service-section-title p{
+        font-size: 1em;
+    }
+    .service-section-services-article{
+        flex-basis: 100%;
+    }
+    .service-section-services-article img{
+        margin-bottom: 15px;
+    }
+    .service-section-services-article p{
+        margin-bottom: 30px;
+    }
+    .portfolio-section{
+        padding: 60px 0;
+    }
+    .portfolio-section-title h1{
+        font-size: 3em;
+    }
+    .portfolio-section-title p{
+        font-size: 1em;
+    }
+    .portfolio-section-jobs-article{
+        flex-basis: 100%;
+        margin: 0;
+    }
+
+   .grid {
+		padding: 0 5px;
+	}
+	.grid li {
+		width: 100%;
+		min-width: 300px;
+    }
+    .contact-section-title{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-section .content{
+        width: 90%;
+        margin: 0 5%;
+    }
+    .contact-section-title h1{
+        font-size: 3em;
+    }
+    .contact-section-title p{
+        font-size: 1.4em;
+    }
+    .contact-section-card{
+        display: none;
+    }
+    .contact-mobile{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contact-mobile .phone,
+    .contact-mobile .email{
+        flex-basis: 100%;
+        padding: 30px;
+        border-radius: 5px;
+        background-color: var(--themeBgLight);
+        color: var(--themeColorA);
+        text-align: center;
+    }
+    .contact-mobile .phone > span > i,
+    .contact-mobile .email > span > i{
+        margin-bottom: 20px;
+    }
+    .contact-mobile .phone > p,
+    .contact-mobile .email > p{
+        margin-bottom: 20px;
+    }
+    .contact-mobile .phone:first-child{
+        margin-bottom: 20px;
+    }
+    .contact-mobile .phone p{
+        font-size: 2em;
+        font-weight: 800;
+    }
+    .contact-mobile .email p{
+        font-size: 1.2em;
+        font-weight: 800;
+    }
+}
+
+/* 576px */
+@media (max-width: 36em) {
+    .main-header{
+        width: 100%;
+        height: auto;
+    }
+    .main-header-content{
+        width: 90%;
+        margin: 0 5%;
+    }
+    .main-header-logo img{
+        width: 100%;
+        max-width: 50px;
+    }
+    .main-header-social ul > .title{
+        font-size: .6em;
+        font-weight: 300;
+    }
+    .main-header-social a{
+        font-size: 1em;
+        padding: 0;
+    }
+    .main-headline{
+        padding: 10px 0;
+    }
+    .main-headline .title{
+        flex-basis: 100%;
+        text-align: center;
+        order: 2;
+    }
+    .main-headline .title h1{
+        font-size: 2em;
+    }
+    .main-headline .title p{
+        font-size: 1em;
+    }
+    .main-headline div{
+        flex-basis: 100%;
+        margin: 20px 0;
+        order: 1;
+        text-align: center;
+    }
+    .main-headline div img{
+        width: 100%;
+        max-width: 240px;
+    }
+    .service-section{
+        padding: 60px 0 30px 0;
+    }
+    .service-section-title{
+        text-align: center;
+    }
+    .service-section-title h1{
+        font-size: 3em;
+    }
+    .service-section-title p{
+        font-size: 1em;
+    }
+    .service-section-services-article{
+        flex-basis: 100%;
+    }
+    .service-section-services-article img{
+        margin-bottom: 15px;
+    }
+    .service-section-services-article p{
+        margin-bottom: 30px;
+    }
+    .portfolio-section{
+        padding: 60px 0;
+    }
+    .portfolio-section-title h1{
+        font-size: 3em;
+    }
+    .portfolio-section-title p{
+        font-size: 1em;
+    }
+    .portfolio-section-jobs-article{
+        flex-basis: 100%;
+        margin: 0;
+    }
+
+   .grid {
+		padding: 0 5px;
+	}
+	.grid li {
+		width: 100%;
+		min-width: 300px;
+    }
+
+    .contact-section .content{
+        width: 90%;
+        margin: 0 5%;
+    }
+    .contact-section-title h1{
+        font-size: 2em;
+    }
+    .contact-section-title p{
+        font-size: 1em;
+    }
+    .contact-section-card{
+        display: none;
+    }
+    .contact-mobile{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contact-mobile .phone,
+    .contact-mobile .email{
+        flex-basis: 100%;
+        padding: 30px;
+        border-radius: 5px;
+        background-color: var(--themeBgLight);
+        color: var(--themeColorA);
+        text-align: center;
+    }
+    .contact-mobile .phone > span > i,
+    .contact-mobile .email > span > i{
+        margin-bottom: 20px;
+    }
+    .contact-mobile .phone > p,
+    .contact-mobile .email > p{
+        margin-bottom: 20px;
+    }
+    .contact-mobile .phone:first-child{
+        margin-bottom: 20px;
+    }
+    .contact-mobile .phone p{
+        font-size: 2em;
+        font-weight: 800;
+    }
+    .contact-mobile .email p{
+        font-size: 1.2em;
+        font-weight: 800;
+    }
+}
