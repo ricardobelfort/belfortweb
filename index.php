@@ -44,7 +44,7 @@
     <link rel="shortcut icon" href="assets/images/favicon.png" />
 
     <title>Belfort Web | Design & Internet em Manaus no Amazonas Brasil</title>
-    <script src="themes/belfortweb/js/modernizr.custom.js"></script>
+    <script src="assets/js/modernizr.custom.js"></script>
     <!-- Start of Async Drift Code -->
     <script>
     "use strict";
