@@ -280,6 +280,23 @@
                             </li>
                         </ul>
                     </article>
+                    <article class="portfolio-section-jobs-article">
+                        <h1 class="fontzero">Trabalhos</h1>
+                        <ul class="grid cs-style-1">
+                            <li>
+                                <a href="uploads/jobs/ipdec.jpg" data-lightbox="jobs" data-title="Instituto IPDEC - Website">
+                                    <figure>
+                                        <img src="uploads/jobs/ipdec.jpg" title="Instituto IPDEC - Website"
+                                            alt="Amazoncad - Website">
+                                        <figcaption>
+                                            <h3>Instituto IPDEC</h3>
+                                            <span>Website</span>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                        </ul>
+                    </article>
                 </div>
             </div>
         </section>
