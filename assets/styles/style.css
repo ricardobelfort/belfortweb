@@ -9,7 +9,7 @@ CONTENT
 .main-header{
     width: 100%;
     height: 100%;
-    background: url(../../themes/belfortweb/images/background-belfortweb.jpg) no-repeat center center;
+    background: url(../../assets/images/background-belfortweb.jpg) no-repeat center center;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -26,30 +26,31 @@ CONTENT
     flex-wrap: wrap;
 }
 .main-header-logo,
-.main-header-social{
+.main-header-social {
     flex-basis: 50%;
 }
-.main-header-social ul{
+.main-header-social ul {
     list-style: none;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     height: 100%;
 }
-.main-header-social ul > .title{
+.main-header-social ul > .title {
     font-size: .6em;
     font-weight: 300;
     text-transform: uppercase;
     color: rgba(255, 255, 255, .5);
 }
-.main-header-social a{
+.main-header-social a {
     color: rgba(255, 255, 255, .5);
     margin-left: 15px;
+    cursor: pointer;
 }
-.main-header-social a:hover{
+.main-header-social a:hover {
     color: #fff;
 }
-.main-headline{
+.main-headline {
     width: 100%;
     padding: 200px 0;
     color: #fff;
@@ -57,17 +58,17 @@ CONTENT
     flex-wrap: wrap;
     align-items: center;
 }
-.main-headline .title{
+.main-headline .title {
     flex-basis: calc(50% - 40px);
     margin: 20px;
 }
-.main-headline .title h1{
+.main-headline .title h1 {
     font-size: 4em;
     font-weight: 900;
     line-height: 1;
     margin-bottom: 25px;
 }
-.main-headline .title p{
+.main-headline .title p {
     font-size: 2em;
     font-weight: 200;
 }
@@ -139,44 +140,44 @@ SERVIÇOS
 /*
 PORTFÓLIO
 */
-.portfolio-section{
+.portfolio-section {
     width: 100%;
     padding: 100px 0;
     background-color: var(--themeBgLight);
 }
-.portfolio-section .content{
+.portfolio-section .content {
     width: 1200px;
     margin: 0 auto;
 }
-.portfolio-section-title{
+.portfolio-section-title {
     width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
-.portfolio-section-title h1{
+.portfolio-section-title h1 {
     font-size: 3.75em;
     font-weight: 900;
     color: var(--colorH);
 }
-.portfolio-section-title p{
+.portfolio-section-title p {
     font-size: 1.5em;
     font-weight: 900;
     margin-bottom: 10px;
     color: var(--colorP);
 }
-.portfolio-section-title .divisor{
+.portfolio-section-title .divisor {
     width: 70px;
     height: 2px;
     margin: 20px 0 60px 0;
     background-color: var(--themeColorA);
 }
-.portfolio-section-jobs{
+.portfolio-section-jobs {
     display: flex;
     flex-wrap: wrap;
 }
-.portfolio-section-jobs-article{
+.portfolio-section-jobs-article {
     flex-basis: calc(33.33% - 10px);
     margin: 5px;
     display: flex;
@@ -258,54 +259,54 @@ PORTFÓLIO
 /*
 CONTACT
 */
-.contact-section{
+.contact-section {
     width: 100%;
     padding: 100px 0;
-    background: url(../../themes/belfortweb/images/background-contato.jpg) no-repeat bottom center;
+    background: url(../../assets/images/background-contato.jpg) no-repeat bottom center;
     background-attachment: fixed;
     background-size: cover;
 }
-.contact-section .content{
+.contact-section .content {
     width: 1200px;
     margin: 0 auto;
 }
-.contact-section-title{
+.contact-section-title {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.contact-section-title h1{
+.contact-section-title h1 {
     font-size: 5em;
     font-weight: 900;
     color: #fff;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
-.contact-section-title p{
+.contact-section-title p {
     font-size: 2em;
     font-weight: 300;
     color: #fff;
     margin-bottom: 60px;
 }
-.contact-section-card{
+.contact-section-card {
     width: 100%;
     text-align: center;
 }
-.contact-mobile{
+.contact-mobile {
     display: none;
 }
 
 /*
 MAIN FOOTER
 */
-.main-footer{
+.main-footer {
     width: 100%;
     background-color: var(--themeBgDark);
     padding: 20px 0;
     text-align: center;
 }
-.main-footer .content p{
+.main-footer .content p {
     font-size: .75em;
     font-weight: 300;
     color: #ccc;
@@ -437,6 +438,7 @@ BREAKPOINTS
         font-size: 1.2em;
         font-weight: 800;
     }
+}
 
 /* 768px */
 @media (max-width:48em) {
@@ -641,7 +643,7 @@ BREAKPOINTS
     .service-section-services-article img{
         margin-bottom: 15px;
     }
-    .service-section-services-article p{
+    .service-section-services-article p {
         margin-bottom: 30px;
     }
     .portfolio-section{
@@ -653,7 +655,7 @@ BREAKPOINTS
     .portfolio-section-title p{
         font-size: 1em;
     }
-    .portfolio-section-jobs-article{
+    .portfolio-section-jobs-article {
         flex-basis: 100%;
         margin: 0;
     }
@@ -685,7 +687,7 @@ BREAKPOINTS
         justify-content: center;
     }
     .contact-mobile .phone,
-    .contact-mobile .email{
+    .contact-mobile .email {
         flex-basis: 100%;
         padding: 30px;
         border-radius: 5px;
@@ -694,21 +696,21 @@ BREAKPOINTS
         text-align: center;
     }
     .contact-mobile .phone > span > i,
-    .contact-mobile .email > span > i{
+    .contact-mobile .email > span > i {
         margin-bottom: 20px;
     }
     .contact-mobile .phone > p,
-    .contact-mobile .email > p{
+    .contact-mobile .email > p {
         margin-bottom: 20px;
     }
-    .contact-mobile .phone:first-child{
+    .contact-mobile .phone:first-child {
         margin-bottom: 20px;
     }
-    .contact-mobile .phone p{
+    .contact-mobile .phone p {
         font-size: 2em;
         font-weight: 800;
     }
-    .contact-mobile .email p{
+    .contact-mobile .email p {
         font-size: 1.2em;
         font-weight: 800;
     }
