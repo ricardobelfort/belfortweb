@@ -125,10 +125,10 @@
             <section class="main-headline">
                 <header class="title">
                     <h1 class="text-shadow">Belfort Web <br> Agência Digital</h1>
-                    <p class="text-shadow">Uma agência focada em desenvolvimento web, mídias sociais e design gráfico.
+                    <p class="text-shadow">Uma agência focada em desenvolvimento web, mobile e design de interfaces.
                     </p>
                 </header>
-                <div>
+                <div class="headline-pic">
                     <img src="assets/images/agencia-belfortweb.png" title="Agência Belfort Web"
                         alt="Agência Belfort Web">
                 </div>
@@ -149,8 +149,8 @@
                     <article class="service-section-services-article">
                         <img src="assets/images/icons/icon-websites.png" title="Desenvolvimento de Websites"
                             alt="Desenvolvimento de Websites">
-                        <h2>Websites</h2>
-                        <p>Criação de Websites, Blogs e Lojas virtuais personalizados para sua empresa.</p>
+                        <h2>Web e Mobile</h2>
+                        <p>Desenvolvimento de Sistemas Web, Criação de Apps, Criação de Websites, Blogs e Lojas virtuais personalizados para sua empresa.</p>
                     </article>
                     <article class="service-section-services-article">
                         <img src="assets/images/icons/icon-social-media.png"
@@ -161,8 +161,8 @@
                     <article class="service-section-services-article">
                         <img src="assets/images/icons/icon-design-grafico.png"
                             title="Desenvolvimento de Websites" alt="Desenvolvimento de Websites">
-                        <h2>Design Gráfico</h2>
-                        <p>Identidade Visual, Manual de uso, Redesign de marca e Projetos gráficos.</p>
+                        <h2>UI Design</h2>
+                        <p>Criação de Interfaces Web e Mobile, Identidade Visual e Redesign de marca.</p>
                     </article>
                 </div>
             </div>
@@ -297,6 +297,23 @@
                             </li>
                         </ul>
                     </article>
+                    <article class="portfolio-section-jobs-article">
+                        <h1 class="fontzero">Trabalhos</h1>
+                        <ul class="grid cs-style-1">
+                            <li>
+                                <a href="uploads/jobs/visiontelecom.jpg" data-lightbox="jobs" data-title="Vision Telecom - Website">
+                                    <figure>
+                                        <img src="uploads/jobs/visiontelecom.jpg" title="Vision Telecom - Website"
+                                            alt="VisionTelecom - Website">
+                                        <figcaption>
+                                            <h3>Vision Telecom</h3>
+                                            <span>Website</span>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                        </ul>
+                    </article>
                 </div>
             </div>
         </section>
@@ -319,10 +336,6 @@
                 <!-- contato mobile -->
                 <article class="contact-mobile">
                     <h2 class="fontzero">Telefone e E-mail</h2>
-                    <!-- <div class="phone">
-                        <span><i class="fas fa-phone-square fa-4x"></i></span>
-                        <p>92 99341-4404</p>
-                    </div> -->
                     <div class="email">
                         <span><i class="far fa-envelope fa-4x"></i></span>
                         <p>contato@belfortweb.com.br</p>
