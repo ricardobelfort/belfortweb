@@ -125,7 +125,7 @@
             <section class="main-headline">
                 <header class="title">
                     <h1 class="text-shadow">Belfort Web <br> Agência Digital</h1>
-                    <p class="text-shadow">Uma agência focada em desenvolvimento web, mobile e design de interfaces.
+                    <p class="text-shadow">Uma agência focada em desenvolvimento de sistemas web, criação de aplicativos móveis e design de interfaces.
                     </p>
                 </header>
                 <div class="headline-pic">
